@@ -1,0 +1,92 @@
+.vivaan-footer {
+    background: linear-gradient(135deg, #4b79a1, #283e51); /* Blue-grey gradient */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .vivaan-footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .vivaan-footer-social {
+    margin-bottom: 20px;
+  }
+  
+  .vivaan-footer-social a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 22px;
+    transition: color 0.3s ease;
+  }
+  
+  .vivaan-footer-social a:hover {
+    color: #f6d365; /* Hover color effect */
+  }
+  
+  /* Links Styling */
+  .vivaan-footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .vivaan-footer-links .footer-link {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .vivaan-footer-links .footer-link:hover {
+    color: #f6d365; /* Hover color effect */
+  }
+  
+  /* Contact Info */
+  .vivaan-footer-contact {
+    margin-bottom: 20px;
+  }
+  
+  .vivaan-footer-contact p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0;
+  }
+  
+  .vivaan-footer-contact i {
+    margin-right: 8px;
+    color: #f6d365;
+  }
+  
+  .vivaan-footer-contact p i:hover {
+    color: #fbc2eb;
+  }
+  
+  /* Copyright */
+  .vivaan-footer-copyright {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  @media (max-width: 768px) {
+    .vivaan-footer-social a {
+      font-size: 20px;
+    }
+  
+    .vivaan-footer-links .footer-link {
+      font-size: 14px;
+      margin: 0 10px;
+    }
+  
+    .vivaan-footer-contact p {
+      font-size: 14px;
+    }
+  
+    .vivaan-footer-copyright {
+      font-size: 12px;
+    }
+  }
+  

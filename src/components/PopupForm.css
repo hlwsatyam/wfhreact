@@ -1,116 +1,197 @@
+/* Popup Form Container with animated RGB background */
 .popup-form-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1000;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: "black";
+
+  scrollbar-width: none;
+  z-index: 10000000000;
+}
+
+/* Popup Form */
+.popup-form {
+  background: linear-gradient(270deg, #ff5858, #007bff, #00ff88, #ff00ff);
+  background-size: 800% 800%;
+  animation: animate-bg 10s ease infinite;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+
+  /* Hide scrollbar for WebKit-based browsers (Chrome, Safari) */
+  scrollbar-width: none;
+}
+#features {
+  background: linear-gradient(270deg, #472525, #575a2e, #37525c, #572b57);
+  background-size: cover;
+  animation: animate-bg 10s ease infinite;
+  color: #f5f5f5;
+}
+#about,
+#portfolio {
+  background: linear-gradient(304deg, #e01919, #ff27d7, #00b7fb, #f807f8);
+  background-size: cover;
+  animation: animate-bg 10s ease infinite;
+  color: #f5f5f5;
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+    height: 500px;
+    min-width: 100%;
   }
-  
-  .popup-form {
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 500px;
-    text-align: center;
-    position: relative;
-    animation: slide-in 0.3s ease-out;
+}
+#portfolio {
+  background: linear-gradient(304deg, #ababab, #ff27d7, #060707, #f807f8);
+  background-size: cover;
+  animation: animate-bg 10s ease infinite;
+  color: #f5f5f5;
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+    height: 200px;
+    min-width: 100%;
   }
-  
-  @keyframes slide-in {
-    from {
-      transform: translateY(-100%);
-    }
-    to {
-      transform: translateY(0);
-    }
+}
+#testimonials {
+  background: linear-gradient(304deg, #525252, #a9a9a9, #060707, #252525);
+  background-size: cover;
+  animation: animate-bg 10s ease infinite;
+  color: #f5f5f5;
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+    height: 50px;
+    min-width: 50%;
   }
-  
-  /* Close Button */
-  .close-btn {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #333;
-    cursor: pointer;
-    transition: color 0.3s ease;
+}
+@keyframes animate-bg {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  .close-btn:hover {
-    color: #ff5c5c;
+  50% {
+    background-position: 100% 50%;
   }
-  
-  .popup-form h2 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-    color: #333;
+  100% {
+    background-position: 0% 50%;
   }
-  
-  .form-group {
-    margin-bottom: 20px;
-    text-align: left;
+}
+.popup-form::-webkit-scrollbar {
+  display: none;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #ff5c5c;
+}
+
+/* Form Heading */
+.popup-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+  background: -webkit-linear-gradient(45deg, #ff5858, #00ff88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/* Input and Select Fields */
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Radio Group */
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-group label {
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.radio-group input {
+  margin-right: 5px;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px 20px;
+  background: linear-gradient(45deg, #007bff, #ff5858, #00ff88);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Animation for form slide-in */
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
   }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 1.5rem;
-    color: #555;
+  to {
+    transform: translateY(0);
   }
-  
-  .form-group input,
-  .form-group select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1.6rem;
-    color: #333;
-    transition: border-color 0.3s ease;
-  }
-  
-  .form-group input:focus,
-  .form-group select:focus {
-    border-color: #007bff;
-    outline: none;
-  }
-  
-  .radio-group {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .radio-group label {
-    font-size: 1.4rem;
-    color: #555;
-  }
-  
-  .radio-group input {
-    margin-right: 5px;
-  }
-  
-  .submit-btn {
-    width: 100%;
-    padding: 12px 20px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.7rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .submit-btn:hover {
-    background-color: #0056b3;
-  }
-  
+}

@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "Your Gateway to Earning from Home!",
-    "paragraph": "At Vivaan Enterprises, we empower individuals to earn money from the comfort of their homes. Whether you're looking for extra income or a full-time opportunity, we have flexible options for everyone. Explore tasks that suit your skills and schedule today!"
+    "title": "घर से कमाई का आपका प्रवेश द्वार!",
+    "paragraph": "At Vihan Enterprises, we empower individuals to earn money from the comfort of their homes. Whether you're looking for extra income or a full-time opportunity, we have flexible options for everyone. Explore tasks that suit your skills and schedule today!"
   },
   "About": {
-    "paragraph": "Ready to start earning? Sign up with Vivaan Enterprises now and discover a world of opportunities. Whether you're interested in part-time work or consistent income, our platform has something for everyone.",
+    "paragraph": "कमाई शुरू करने के लिए तैयार हैं? अभी विहान एंटरप्राइजेज के साथ साइन अप करें और अवसरों की दुनिया की खोज करें। चाहे आप अंशकालिक काम में रुचि रखते हों या लगातार आय में, हमारे मंच पर सभी के लिए कुछ न कुछ है।",
     "Why": [
       "Sign Up for Free: Quick and easy registration process.",
       "Complete Tasks: Choose tasks that match your interests and skills.",
@@ -32,6 +32,16 @@
    
     {
       "title": "Review And Remark",
+      "largeImage": "https://cdn.dribbble.com/users/1278096/screenshots/10862417/media/f28d2a50fd6eeee1c7ce0f0da2fcd863.gif",
+      "smallImage": "https://cdn.dribbble.com/users/1278096/screenshots/10862417/media/f28d2a50fd6eeee1c7ce0f0da2fcd863.gif"
+    },
+    {
+      "title": "Review And Remark",
+      "largeImage": "https://cdn.dribbble.com/users/99875/screenshots/1433198/mark-and-john.gif",
+      "smallImage": "https://cdn.dribbble.com/users/99875/screenshots/1433198/mark-and-john.gif"
+    },
+    {
+      "title": "Review And Remark",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
@@ -42,58 +52,57 @@
       "smallImage": "img/portfolio/08-small.jpg"
     }
   ],
-  "Services": [
-    
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Review and Marks Update",
-      "text": "Write articles, product descriptions, and other types of content. Perfect for those with a flair for writing."
-    },
-   
-    
-    {
-      "icon": "fa fa-plane",
-      "name": "Virtual Assistance",
-      "text": "Assist businesses remotely with tasks like email management, scheduling, and more."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Daily Small Task",
-      "text": "Participate in market research, provide insights, and get paid for sharing your opinions."
-    }
-  ],
-  "Testimonials": [
+"Services": [
+  {
+    "icon": "fa fa-cart-arrow-down",
+    "name": "समीक्षा अपडेट",
+    "text": "लेख लिखें, उत्पाद विवरण लिखें और अन्य प्रकार की सामग्री तैयार करें। यह लेखन में रुचि रखने वालों के लिए उपयुक्त है।"
+  },
+  {
+    "icon": "fa fa-plane",
+    "name": "वर्चुअल असिस्टेंस",
+    "text": "व्यवसायों को दूरस्थ रूप से ईमेल प्रबंधन, शेड्यूलिंग और अन्य कार्यों में सहायता करें।"
+  },
+  {
+    "icon": "fa fa-pie-chart",
+    "name": "दैनिक छोटे कार्य",
+    "text": "छोटे कार्य में भाग लें, अपनी राय साझा करें और इसके लिए भुगतान प्राप्त करें।"
+  }
+]
+,
+"Testimonials": [
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs_NdtJ9PQ8hHBuy_YY40RR2S2AVn3LmaGLA&s",
-      "text": "\"Vivaan Enterprises has changed the way I work from home. The tasks are simple, and I love being able to choose when and how much I work!\"",
-      "name": "Neha Jain"
+      "text": "\"विवान एंटरप्राइजेज ने मेरे घर से काम करने के तरीके को बदल दिया है। काम सरल हैं, और मुझे यह पसंद है कि मैं कब और कितना काम करना है, चुन सकती हूँ!\"",
+      "name": "नेहा जैन"
     },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qv5s5REahX2Vcj11jPnU1ibiEUfTc-VMAQ&s",
-      "text": "\"Thanks to Vivaan Enterprises, I’ve been able to earn extra income during my free time. It's been a great experience so far!\"",
-      "name": "Rohit Mishra"
+      "text": "\"विवान एंटरप्राइजेज की वजह से मैं अपने खाली समय में अतिरिक्त आय कमा पाया हूँ। अब तक का अनुभव बहुत ही शानदार रहा है!\"",
+      "name": "रोहित मिश्रा"
     },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vLHQR_Neq1SHRVvJtzwXoz2KhULSXEmS4w&s",
-      "text": "\"I’ve tried several platforms, but Vivaan Enterprises is by far the easiest and most reliable. Their support team is always ready to help!\"",
-      "name": "Neha Jha"
+      "text": "\"मैंने कई प्लेटफार्म का उपयोग किया है, लेकिन विवान एंटरप्राइजेज अब तक सबसे सरल और विश्वसनीय है। उनकी सपोर्ट टीम हमेशा मदद के लिए तैयार रहती है!\"",
+      "name": "नेहा झा"
     },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSseLWBA5vnNgZUNgnXmla469KhKwXmJs1F7Q&s",
-      "text": "\"Vivaan has allowed me to work flexibly while studying. I can choose tasks that fit my schedule, and I always get paid on time!\"",
-      "name": "Abhishek Goel"
+      "text": "\"विवान ने मुझे पढ़ाई के साथ काम करने का मौका दिया। मैं अपनी समय-सारणी के अनुसार काम चुन सकता हूँ और मुझे हमेशा समय पर भुगतान मिलता है!\"",
+      "name": "अभिषेक गोयल"
     },
     {
       "img": "https://finetechhub.com/wp-content/uploads/2024/07/Beautiful-Girls-DP-and-Girls-Photo-HD-1024x1024.jpg.webp",
-      "text": "\"I love that I can work from anywhere using my phone. Vivaan Enterprises offers so many easy tasks that are perfect for my mobile device.\"",
-      "name": "Ritu Sena"
+      "text": "\"मुझे यह पसंद है कि मैं अपने फ़ोन से कहीं से भी काम कर सकती हूँ। विवान एंटरप्राइजेज कई आसान काम प्रदान करता है, जो मेरे मोबाइल डिवाइस के लिए एकदम सही हैं।\"",
+      "name": "ऋतु सेना"
     },
     {
       "img": "https://cdn.pixabay.com/photo/2021/03/27/19/25/alone-boy-6129399_640.jpg",
-      "text": "\"The subscription plan has been a great investment for me. I now get access to higher-paying tasks, and my earnings have increased significantly!\"",
-      "name": "waseem akram"
+      "text": "\"सब्सक्रिप्शन प्लान मेरे लिए एक बेहतरीन निवेश रहा है। अब मुझे उच्च भुगतान वाले काम मिलते हैं और मेरी आय में काफी वृद्धि हुई है!\"",
+      "name": "वसीम अकरम"
     }
-  ],
+]
+,
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -119,16 +128,16 @@
   "Contact": {
     "address": "C block sector 2 ranchi jharkhand",
     "phone": "+91 7209058 182",
-    "email": "support@vivaanenterprises.com",
-    "facebook": "facebook.com/vivaanenterprises",
-    "twitter": "twitter.com/vivaanent",
-    "youtube": "youtube.com/vivaanenterprises"
+    "email": "support@Vihanenterprises.com",
+    "facebook": "facebook.com/Vihanenterprises",
+    "twitter": "twitter.com/Vihaent",
+    "youtube": "youtube.com/Vihanenterprises"
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
       "title": "Basic Tasks",
-      "text": "Complete easy tasks like surveys, micro-tasks, and short writing assignments to earn money in your spare time."
+      "text": "Complete easy Work from home tasks like surveys, micro-tasks, and short writing assignments to earn money in your spare time."
     },
     {
       "icon": "fa fa-bullhorn",
@@ -138,7 +147,7 @@
     {
       "icon": "fa fa-group",
       "title": "Payout Options",
-      "text": "Cash out your earnings through PayPal, bank transfer, or digital gift cards. No hidden fees!"
+      "text": "Cash out your earnings through upi, bank transfer. No hidden fees!"
     },
     {
       "icon": "fa fa-magic",

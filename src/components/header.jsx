@@ -14,10 +14,10 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
+                   id="featurest"
                   className="btn   btn-lg page-scroll"
                 >
-                   <img className="gif-img" src="https://dms.iitd.ac.in/wp-content/uploads/2017/08/apply-now.gif" alt="" />
+                   <img  onClick={()=>props.setIsOpen(!props.isOpen)} className="gif-img" src="https://dms.iitd.ac.in/wp-content/uploads/2017/08/apply-now.gif" alt="" />
                 </a>{" "}
               </div>
             </div>

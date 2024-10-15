@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './PopupForm.css'; // External CSS for styling
 
-function PopupForm() {
+function PopupForm({isOpen=true, setIsOpen}) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -10,8 +10,7 @@ function PopupForm() {
     hasMobile: '',
   });
 
-  const [isOpen, setIsOpen] = useState(true); // To handle popup visibility
-
+  
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -33,7 +32,7 @@ function PopupForm() {
           <div className="popup-form">
             <button className="close-btn" onClick={handleClose}>&times;</button>
             <h2>Join Us!</h2>
-            <h2> <img className='gif-img' src="https://img.bitgetimg.com/multiLang/web/a2f6015e9fb909935b26702fb0038b9e.gif" alt="" /> </h2>
+          
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label>Name</label>

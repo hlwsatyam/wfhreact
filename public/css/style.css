@@ -18,12 +18,12 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: #afafaf;
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: #d7d7d7;
 }
 h4 {
   font-size: 18px;
@@ -424,6 +424,10 @@ header .intro-text {
   height: 64px;
   border-radius: 50%;
 }
+
+
+ 
+
 .testimonial-content {
   position: relative;
   overflow: hidden;
@@ -437,7 +441,7 @@ header .intro-text {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: #666;
+  color: #ff0000;
 }
 /* Team Section */
 #team {
